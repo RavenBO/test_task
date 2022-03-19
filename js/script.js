@@ -1,4 +1,3 @@
-
 function findindex(arr , elem) {
     ctn=0;
     while (elem!=arr[ctn]){
