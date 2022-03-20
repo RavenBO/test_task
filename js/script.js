@@ -16,14 +16,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 if(el.classList.contains("button_active")){                    
                     t =findindex(btn,el);                  
                     blk[t].classList.remove("plan__block_active");
-                    btn[t].innerText="PLAN SELECTED";
+                    el.innerText="SELECT PLAN"; 
                     btn[t].classList.remove("button_active");             
                 }                 
             })                                
             k =findindex(btn,item); 
             item.classList.add("button_active");
             blk[k].classList.add("plan__block_active");
-            item.innerText="SELECT PLAN";  
+            item.innerText="PLAN SELECTED";
             if(item.classList.contains("button_active")){
                
             }else {
